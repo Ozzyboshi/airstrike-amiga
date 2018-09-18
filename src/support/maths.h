@@ -1,6 +1,10 @@
 #ifndef MATHS_H
 #define MATHS_H
 
+#ifndef INLINE
+#define INLINE inline
+#endif
+
 /*
  * Defines some 2d vector utility functions.
  *

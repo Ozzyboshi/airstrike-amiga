@@ -1,6 +1,10 @@
 #include <assert.h>
 #include "dirty.h"
 
+#ifndef INLINE
+#define INLINE inline
+#endif
+
 static int width,height;
 static int drawto = 0;
 static int all_dirty[2] = {1,1};

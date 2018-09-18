@@ -1,4 +1,4 @@
-/* 
+/*
  * (w) 2003 by Eero Tamminen
  */
 #include <assert.h>
@@ -6,6 +6,11 @@
 #include <stdio.h>
 #include "sprite_types.h"
 #include "airstrike.h"
+
+#ifndef INLINE
+#define INLINE inline
+#endif
+
 
 enum {
 	MSG_BACK,
@@ -22,13 +27,13 @@ static int msg_setup(void)
 {
 	int i;
 	animation_t *anim;
-	
+
 	if (!msg[0]) {
 		/* object is killed before it moves into another frame */
 		anim = animation_load(path_to_data("message.png"),
 				      1,MESSAGES,9999);
 		assert(anim);
-		
+
 		for (i = 0; i < MESSAGES; i++) {
 			msg[i] = anim;
 			anim = anim->next_frame;
