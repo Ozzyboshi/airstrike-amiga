@@ -1,0 +1,4 @@
+src/*.o
+src/support/*.o
+src/sprite_types/*.o
+src/sprite/*.o

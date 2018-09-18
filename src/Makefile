@@ -1,5 +1,5 @@
 CC=m68k-amigaos-gcc
-CFLAGS:=  -noixemul -g -O2 -Wall -Wno-unused $(OPTIONS) -fomit-frame-pointer
+CFLAGS:=  -noixemul -Os -Wall -Wno-unused $(OPTIONS) -fomit-frame-pointer
 #
 CFLAGS += -I/opt/amiga/SDL_image-pack/include/SDL -I/opt/amiga/include/SDL -Isprite -I. -Isupport -DINLINE=inline
 CFILES:= $(shell find . -name '*.c')
