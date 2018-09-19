@@ -3,14 +3,10 @@
  */
 #include <assert.h>
 //#include <malloc.h>
+#include "../config.h"
 #include <stdio.h>
 #include "sprite_types.h"
 #include "airstrike.h"
-
-#ifndef INLINE
-#define INLINE inline
-#endif
-
 
 enum {
 	MSG_BACK,
@@ -20,8 +16,8 @@ enum {
 	MSG_SCUM,
 	MESSAGES
 };
-static animation_t *msg[MESSAGES];
 
+static animation_t *msg[MESSAGES];
 
 static int msg_setup(void)
 {

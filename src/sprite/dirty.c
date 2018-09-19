@@ -1,9 +1,6 @@
 #include <assert.h>
+#include "../config.h"
 #include "dirty.h"
-
-#ifndef INLINE
-#define INLINE inline
-#endif
 
 static int width,height;
 static int drawto = 0;

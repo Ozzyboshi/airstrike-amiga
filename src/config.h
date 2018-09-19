@@ -8,18 +8,22 @@
 #ifndef ROOT_CONFIG_FILE
 #define ROOT_CONFIG_FILE "airstrikerc"
 #endif
+
 /* path to file in users $HOME */
 #ifndef USER_CONFIG_FILE
 #define USER_CONFIG_FILE ".airstrikerc"
 #endif
 
-/*#ifdef USE_SOUND
+/* If INLINE is not defined, define it as inline by default */
+#ifndef INLINE
+#define INLINE inline
+#endif
+
+#ifdef USE_SOUND
 #define SDL_INITFLAGS SDL_INIT_VIDEO|SDL_INIT_AUDIO
 #else
 #define SDL_INITFLAGS SDL_INIT_VIDEO
-#endif*/
-
-#define SDL_INITFLAGS SDL_INIT_VIDEO
+#endif
 
 int config_setup();
 

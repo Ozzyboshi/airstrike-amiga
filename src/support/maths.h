@@ -1,10 +1,6 @@
 #ifndef MATHS_H
 #define MATHS_H
-
-#ifndef INLINE
-#define INLINE inline
-#endif
-
+#include "../config.h"
 /*
  * Defines some 2d vector utility functions.
  *
