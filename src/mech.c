@@ -1,3 +1,4 @@
+#include "config.h"
 #include "mech.h"
 #include "sprite_types.h"
 #include "level.h"

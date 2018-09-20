@@ -1,4 +1,5 @@
 #include <assert.h>
+#include "../config.h"
 #include "dirty.h"
 
 static int width,height;

@@ -1,6 +1,6 @@
 #ifndef MATHS_H
 #define MATHS_H
-
+#include "../config.h"
 /*
  * Defines some 2d vector utility functions.
  *
