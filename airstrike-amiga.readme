@@ -1,0 +1,7 @@
+Short:        a 2d dogfighting game
+Uploader:     gun101@email.it.it (Alessio Garzi)
+Author:       gun101@email.it.it (Alessio Garzi)
+Type:         game/misc
+Version:      1.6
+Architecture: m68k-amigaos >= 3.1
+Distribution: Aminet
