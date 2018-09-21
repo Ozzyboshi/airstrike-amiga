@@ -65,11 +65,11 @@ static int general_setup(void)
   SDL_ShowCursor(SDL_DISABLE);
 
   if (cfgnum("sound",0) == 1)
-    {
+  {
       sound_setup();
       /* place the ear on the ground, in the center */
       sound_move_ear(screen_w/2,screen_h);
-    }
+  }
   sprite_setup();
   text_setup();
   console_setup();
