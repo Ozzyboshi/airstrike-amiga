@@ -21,4 +21,4 @@ http://aminet.net/package/game/misc/airstrike-amiga-1.6
 
 http://aminet.net/package/game/misc/airstrike-amiga-src-1.6
 
-![Screenshot](https://i.ytimg.com/vi/C3mebohbiYk/hqdefault.jpg)
+![Screenshot](airstrike-amiga.png)
